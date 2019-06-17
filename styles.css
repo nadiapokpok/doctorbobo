@@ -102,4 +102,20 @@ h1{
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
 }
 
+#text5{
+    top: 57%;
+    left: 19%;
+    background-color:rgba(29, 28, 28, 0.1);
+    border-radius: 5px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+#text6{
+    top: 53%;
+    left: 55%;
+    background-color:rgba(29, 28, 28, 0.1);
+    border-radius: 5px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
 

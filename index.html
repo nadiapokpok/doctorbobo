@@ -16,12 +16,12 @@
       <div id='corps'>
           <img src = 'corps.png' alt='corps humain'>
      
-        <div class='cercle' id="part1" onclick="show('text1')">A</div>
-        <div class='cercle' id="part2" onclick="show('text2')">B</div>
-        <div class='cercle' id="part3" onclick="show('text3')">C</div>
-        <div class='cercle' id="part4" onclick="show('text4')">D</div>
-        <div class='cercle' id="part5" onclick="show('text5')">E</div>
-        <div class='cercle' id="part6" onclick="show('text6')">F</div>
+        <div class='cercle' id="part1" onclick="show('text1')" onmouseover="over(this.id)" onmouseout="disparait(this.id)" >A</div>
+        <div class='cercle' id="part2" onclick="show('text2')" onmouseover="over(this.id)" onmouseout="disparait(this.id)" >B</div>
+        <div class='cercle' id="part3" onclick="show('text3')" onmouseover="over(this.id)" onmouseout="disparait(this.id)" >C</div>
+        <div class='cercle' id="part4" onclick="show('text4')" onmouseover="over(this.id)" onmouseout="disparait(this.id)" >D</div>
+        <div class='cercle' id="part5" onclick="show('text5')" onmouseover="over(this.id)" onmouseout="disparait(this.id)" >E</div>
+        <div class='cercle' id="part6" onclick="show('text6')" onmouseover="over(this.id)" onmouseout="disparait(this.id)" >F</div>
     </div>
     <div id='text1'>
         <h2>Epaule</h2>
@@ -52,8 +52,21 @@
         <h2>Hanche</h2>
         <p>La hanche ou articulation coxo-fémorale est une articulation (sphéroïde) qui permet de joindre la cuisse au bassin. Elle met en jeu deux os : l'os coxal et le fémur. </p>
     </div>
-    <div id='text5'>iyfoizufoisflsdfkld</div>
-    <div id='text6'>iyfoizufoisflsdfkld</div>
+    <div id='text5'>
+        <h2>Genoux</h2>
+        <p>Le genou est une articulation qui permet de joindre la jambe à la cuisse. Elle met en jeu trois os, le fémur, le tibia et la patella, par le biais de trois articulations, l'articulation fémoro-patellaire et la double articulation fémoro-tibiale. Le cartilage assure la fluidité des mouvements du genou.</p>
+    </div>
+    <div id='text6'>
+        <h2>Cheville</h2>
+        <p>
+            Les ligaments de la partie interne de la cheville.
+            
+            La cheville ou cou-de-pied est l'articulation qui relie la jambe et le pied.
+            
+            Elle est parfois sujette à des entorses, le plus souvent externes par flexion plantaire et pied en équin.
+            
+            Une cheville adulte est composée, au point de vue osseux, de l'épiphyse inférieure du tibia (malléole interne et plafond), de l'épiphyse inférieure de la fibula (ou péroné) (malléole externe) et du talus (ou astragale).</p>
+    </div>
     
 
 <script src = app.js></script>

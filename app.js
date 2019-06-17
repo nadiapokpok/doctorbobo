@@ -13,3 +13,19 @@ function show(choice){
         choix.style.display = 'none';
     }
 }
+
+function over(choiceOne){
+    console.log(choiceOne);
+    var monElt = document.getElementById(choiceOne);
+    console.log(monElt);
+    console.log(monElt.style)
+    monElt.style.backgroundColor = 'red';
+}
+
+function disparait(choiceTwo){
+    console.log(choiceTwo);
+    var monElt = document.getElementById(choiceTwo);
+    console.log(monElt);
+    console.log(monElt.style)
+    monElt.style.backgroundColor = '';
+}
